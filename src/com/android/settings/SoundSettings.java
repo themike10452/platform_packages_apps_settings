@@ -64,13 +64,13 @@ public class SoundSettings extends SettingsPreferenceFragment implements
     private static final String KEY_VIBRATE = "vibrate_when_ringing";
     private static final String KEY_RING_VOLUME = "ring_volume";
     private static final String KEY_MUSICFX = "musicfx";
-    private static final String KEY_DTMF_TONE = "dtmf_tone";
-    private static final String KEY_SOUND_EFFECTS = "sound_effects";
-    private static final String KEY_HAPTIC_FEEDBACK = "haptic_feedback";
+    private static final String KEY_DTMF_TONE = Settings.System.DTMF_TONE_WHEN_DIALING;
+    private static final String KEY_SOUND_EFFECTS = Settings.System.SOUND_EFFECTS_ENABLED;
+    private static final String KEY_HAPTIC_FEEDBACK = Settings.System.HAPTIC_FEEDBACK_ENABLED;
     private static final String KEY_EMERGENCY_TONE = "emergency_tone";
     private static final String KEY_SOUND_SETTINGS = "sound_settings";
-    private static final String KEY_LOCK_SOUNDS = "lock_sounds";
-    private static final String KEY_VOLUME_ADJUST_SOUNDS = "volume_adjust_sounds";
+    private static final String KEY_LOCK_SOUNDS = Settings.System.LOCKSCREEN_SOUNDS_ENABLED;
+    private static final String KEY_VOLUME_ADJUST_SOUNDS = "volume_adjust_sounds_enabled";
     private static final String KEY_RINGTONE = "ringtone";
     private static final String KEY_NOTIFICATION_SOUND = "notification_sound";
     private static final String KEY_CATEGORY_CALLS = "category_calls_and_notification";
@@ -87,13 +87,9 @@ public class SoundSettings extends SettingsPreferenceFragment implements
     private static final int MSG_UPDATE_RINGTONE_SUMMARY = 1;
     private static final int MSG_UPDATE_NOTIFICATION_SUMMARY = 2;
 
-    private CheckBoxPreference mVibrateWhenRinging;
     private ListPreference mVolumeOverlay;
-    private CheckBoxPreference mDtmfTone;
     private CheckBoxPreference mSoundEffects;
-    private CheckBoxPreference mHapticFeedback;
     private Preference mMusicFx;
-    private CheckBoxPreference mLockSounds;
     private Preference mRingtonePreference;
     private Preference mNotificationPreference;
 
@@ -105,7 +101,6 @@ public class SoundSettings extends SettingsPreferenceFragment implements
     private CheckBoxPreference mDockSounds;
     private Intent mDockIntent;
     private CheckBoxPreference mDockAudioMediaEnabled;
-    private CheckBoxPreference mVolumeAdjustSounds;
 
     private Handler mHandler = new Handler() {
         public void handleMessage(Message msg) {
@@ -159,30 +154,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements
             getPreferenceScreen().removePreference(findPreference(KEY_RING_VOLUME));
         }
 
-        mVibrateWhenRinging = (CheckBoxPreference) findPreference(KEY_VIBRATE);
-        mVibrateWhenRinging.setPersistent(false);
-        mVibrateWhenRinging.setChecked(Settings.System.getInt(resolver,
-                Settings.System.VIBRATE_WHEN_RINGING, 0) != 0);
-
-        mDtmfTone = (CheckBoxPreference) findPreference(KEY_DTMF_TONE);
-        mDtmfTone.setPersistent(false);
-        mDtmfTone.setChecked(Settings.System.getInt(resolver,
-                Settings.System.DTMF_TONE_WHEN_DIALING, 1) != 0);
         mSoundEffects = (CheckBoxPreference) findPreference(KEY_SOUND_EFFECTS);
-        mSoundEffects.setPersistent(false);
-        mSoundEffects.setChecked(Settings.System.getInt(resolver,
-                Settings.System.SOUND_EFFECTS_ENABLED, 1) != 0);
-        mHapticFeedback = (CheckBoxPreference) findPreference(KEY_HAPTIC_FEEDBACK);
-        mHapticFeedback.setPersistent(false);
-        mHapticFeedback.setChecked(Settings.System.getInt(resolver,
-                Settings.System.HAPTIC_FEEDBACK_ENABLED, 1) != 0);
-        mLockSounds = (CheckBoxPreference) findPreference(KEY_LOCK_SOUNDS);
-        mLockSounds.setPersistent(false);
-        mLockSounds.setChecked(Settings.System.getInt(resolver,
-                Settings.System.LOCKSCREEN_SOUNDS_ENABLED, 1) != 0);
-        mVolumeAdjustSounds = (CheckBoxPreference) findPreference(KEY_VOLUME_ADJUST_SOUNDS);
-        mVolumeAdjustSounds.setChecked(Settings.System.getInt(resolver,
-                Settings.System.VOLUME_ADJUST_SOUNDS_ENABLED, 1) != 0);
 
         mRingtonePreference = findPreference(KEY_RINGTONE);
         mNotificationPreference = findPreference(KEY_NOTIFICATION_SOUND);
@@ -293,29 +265,12 @@ public class SoundSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mVibrateWhenRinging) {
-            Settings.System.putInt(getContentResolver(), Settings.System.VIBRATE_WHEN_RINGING,
-                    mVibrateWhenRinging.isChecked() ? 1 : 0);
-        } else if (preference == mDtmfTone) {
-            Settings.System.putInt(getContentResolver(), Settings.System.DTMF_TONE_WHEN_DIALING,
-                    mDtmfTone.isChecked() ? 1 : 0);
-
-        } else if (preference == mSoundEffects) {
+        if (preference == mSoundEffects) {
             if (mSoundEffects.isChecked()) {
                 mAudioManager.loadSoundEffects();
             } else {
                 mAudioManager.unloadSoundEffects();
             }
-            Settings.System.putInt(getContentResolver(), Settings.System.SOUND_EFFECTS_ENABLED,
-                    mSoundEffects.isChecked() ? 1 : 0);
-
-        } else if (preference == mHapticFeedback) {
-            Settings.System.putInt(getContentResolver(), Settings.System.HAPTIC_FEEDBACK_ENABLED,
-                    mHapticFeedback.isChecked() ? 1 : 0);
-
-        } else if (preference == mLockSounds) {
-            Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_SOUNDS_ENABLED,
-                    mLockSounds.isChecked() ? 1 : 0);
 
         } else if (preference == mMusicFx) {
             // let the framework fire off the intent
@@ -350,9 +305,6 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         } else if (preference == mDockAudioMediaEnabled) {
             Settings.Global.putInt(getContentResolver(), Settings.Global.DOCK_AUDIO_MEDIA_ENABLED,
                     mDockAudioMediaEnabled.isChecked() ? 1 : 0);
-        } else if (preference == mVolumeAdjustSounds) {
-            Settings.System.putInt(getContentResolver(), Settings.System.VOLUME_ADJUST_SOUNDS_ENABLED,
-                    mVolumeAdjustSounds.isChecked() ? 1 : 0);
         } else {
             // If we didn't handle it, let preferences handle it.
             return super.onPreferenceTreeClick(preferenceScreen, preference);
