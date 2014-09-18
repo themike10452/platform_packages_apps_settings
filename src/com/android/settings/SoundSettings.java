@@ -50,7 +50,6 @@ import android.util.Log;
 import android.view.VolumePanel;
 
 import java.util.List;
-import com.android.settings.Utils;
 
 public class SoundSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -156,11 +155,6 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         }
 
         mSoundEffects = (CheckBoxPreference) findPreference(KEY_SOUND_EFFECTS);
-
-        // Remove volume adjust preference on tablets
-        if (!Utils.isPhone(getActivity())) {
-            getPreferenceScreen().removePreference(findPreference(KEY_VOLUME_ADJUST_SOUNDS));
-        }
 
         mRingtonePreference = findPreference(KEY_RINGTONE);
         mNotificationPreference = findPreference(KEY_NOTIFICATION_SOUND);
