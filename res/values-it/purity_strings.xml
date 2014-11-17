@@ -76,4 +76,8 @@
     <!-- Volume Keys Media Control -->
     <string name="volume_keys_control_media_stream">Controllo media</string>
     <string name="volume_keys_control_media_stream_summary">Il bilanciere del volume regola il volume dei media piuttosto che quello delle notifiche</string>
+
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Termina app con tasto</string>
+    <string name="kill_app_longpress_back_summary">Termina l\'applicazione in primo piano tenendo premuto il tasto indietro</string>
 </resources>
