@@ -34,6 +34,11 @@
         android:title="@string/power_menu_title"
         android:fragment="com.android.settings.purity.PowerMenuActions" />
 
+    <PreferenceScreen
+        android:key="expanded_desktop"
+        android:title="@string/power_menu_expanded_desktop"
+        android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+
     <PreferenceCategory
             android:key="category_recent_panel"
             android:title="@string/category_recent_panel_title"/>
