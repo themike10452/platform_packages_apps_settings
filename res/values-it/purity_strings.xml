@@ -80,4 +80,8 @@
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Termina app con tasto</string>
     <string name="kill_app_longpress_back_summary">Termina l\'applicazione in primo piano tenendo premuto il tasto indietro</string>
+
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">Notifica metodo inserimento</string>
+    <string name="ime_switcher_notify_summary">Visualizza la notifica del selettore metodo di immissione</string>
 </resources>
