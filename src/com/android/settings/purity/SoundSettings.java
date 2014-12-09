@@ -60,6 +60,7 @@ public class SoundSettings extends SettingsPreferenceFragment implements
         mVolumeKeysControlMedia.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.VOLUME_KEYS_CONTROL_MEDIA_STREAM, 0) != 0);
         mVolumeKeysControlMedia.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
