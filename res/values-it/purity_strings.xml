@@ -67,6 +67,7 @@
     <!-- Sound settings -->
     <string name="advanced_sound_title">Impostazioni avanzate</string>
     <string name="sound_title">Pannello suoni</string>
+    <string name="volume_adjust_sound_title">Suono di regolazione volume</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Volume sicurezza cuffie</string>
