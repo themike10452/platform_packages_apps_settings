@@ -16,6 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="build_date">Data build</string>
+    <string name="system_settings_title">Sistema</string>
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Riavvio avanzato</string>
@@ -99,4 +100,35 @@
     <!-- Volume wake -->
     <string name="pref_volume_wake_title">Risveglio tasti volume</string>
     <string name="pref_volume_wake_summary">Premere i tasti del volume farà attivare il dispositivo</string>
+
+    <!-- Status bar | Clock -->
+    <string name="status_bar_title">Barra di stato</string>
+    <string name="status_bar_style_title">Stile</string>
+    <string name="status_bar_clock">Orologio e data</string>
+    <string name="enabled">Attivato</string>
+    <string name="status_bar_clock_title">Stile dell\'orologio e data</string>
+    <string name="clock_title_enable">Allineamento</string>
+    <string name="clock_enabled">Attivato</string>
+    <string name="clock_disabled">Disattivato</string>
+    <string name="status_bar_show_clock_title">Mostra</string>
+    <string name="status_bar_am_pm_title">Stile AM/PM</string>
+    <string name="status_bar_am_pm_info">orologio di 24 ore è abilitato</string>
+    <string name="enable_clock_weekday">Giorno della settimana</string>
+    <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell\'ora</string>
+    <string name="right_clock">A destra</string>
+    <string name="center_clock">Al centro</string>
+    <string name="dont_show">Non mostrare</string>
+    <string name="am_pm_clock_none">Non mostrare</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Visualizzazione data personalizzata prima dell\'orologio</string>
+    <string name="clock_date_style">Stile della data</string>
+    <string name="clock_date_format">Formato della data</string>
+    <string name="clock_date_string_edittext_title">Deve essere in DateFormat es. GG/MM/AA</string>
+    <string name="clock_date_string_edittext_summary">Inserire la stringa</string>
+    <string name="clock_date_display_none">Non mostrare</string>
+    <string name="clock_date_display_small">Caratteri ridotti</string>
+    <string name="clock_date_display_normal">Caratteri normali</string>
+    <string name="clock_date_style_normal">Normale</string>
+    <string name="clock_date_style_lowercase">Maiuscolo</string>
+    <string name="clock_date_style_uppercase">Minuscolo</string>
 </resources>

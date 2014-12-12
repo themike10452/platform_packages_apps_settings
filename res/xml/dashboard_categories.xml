@@ -71,6 +71,21 @@
 
     </dashboard-category>
 
+    <!-- PURITY -->
+    <dashboard-category
+            android:id="@+id/purity_section"
+            android:title="@string/header_category_rom_settings" >
+
+        <!-- System Settings -->
+        <dashboard-tile
+                android:id="@+id/system_settings"
+                android:title="@string/system_settings_title"
+                android:fragment="com.android.settings.purity.SystemSettings"
+                android:icon="@drawable/ic_settings_system"
+                />
+    
+    </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"
