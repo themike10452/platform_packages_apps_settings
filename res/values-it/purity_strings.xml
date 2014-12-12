@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="build_date">Data build</string>
     <string name="system_settings_title">Sistema</string>
+    <string name="status_bar_general_title">Generali</string>
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Riavvio avanzato</string>
@@ -131,4 +132,8 @@
     <string name="clock_date_style_normal">Normale</string>
     <string name="clock_date_style_lowercase">Maiuscolo</string>
     <string name="clock_date_style_uppercase">Minuscolo</string>
+
+    <!-- Brightness Control -->
+    <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
+    <string name="status_bar_toggle_brightness_summary">Regolare la luminosità scorrendo attraverso la barra di stato</string>
 </resources>

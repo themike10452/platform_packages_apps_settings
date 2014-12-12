@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Purity Settings -->
     <string name="header_category_rom_settings">PURITY</string>
+    <string name="status_bar_general_title">General</string>
 
     <!-- Settings screens -->
     <string name="system_settings_title">System</string>
@@ -136,4 +137,8 @@
     <string name="clock_date_style_lowercase">Lowercase</string>
     <string name="clock_date_style_uppercase">Uppercase</string>
     <string name="enabled">Enabled</string>
+
+    <!-- Brightness Control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 </resources>
