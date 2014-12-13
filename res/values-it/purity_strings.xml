@@ -136,4 +136,8 @@
     <!-- Brightness Control -->
     <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
     <string name="status_bar_toggle_brightness_summary">Regolare la luminosità scorrendo attraverso la barra di stato</string>
+
+    <!-- tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Doppio tap per spegnere</string>
+    <string name="double_tap_to_sleep_summary">Un doppio tap sulla barra di stato o sullo slide della schermata di blocco farà spegnere il display</string>
 </resources>
