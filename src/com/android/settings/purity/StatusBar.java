@@ -25,6 +25,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
 import android.util.Log;
@@ -32,12 +33,14 @@ import android.util.Log;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class StatusBar extends SettingsPreferenceFragment {
+public class StatusBar extends SettingsPreferenceFragment
+        implements OnPreferenceChangeListener {
 
-    private static final String TAG = "StatusBarSettings";
     private static final String KEY_STATUS_BAR_CLOCK = "clock_style_pref";
+    private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
 
     private PreferenceScreen mClockStyle;
+    private ListPreference mStatusBarBattery;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,12 +48,35 @@ public class StatusBar extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.status_bar_settings);
 
+        ContentResolver resolver = getActivity().getContentResolver();
         PreferenceScreen prefSet = getPreferenceScreen();
 
         mClockStyle = (PreferenceScreen) prefSet.findPreference(KEY_STATUS_BAR_CLOCK);
         if (mClockStyle != null) {
             updateClockStyleDescription();
         }
+
+        mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
+
+        int batteryStyle = Settings.System.getInt(
+                resolver, Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0);
+        mStatusBarBattery.setValue(String.valueOf(batteryStyle));
+        mStatusBarBattery.setSummary(mStatusBarBattery.getEntry());
+        mStatusBarBattery.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mStatusBarBattery) {
+            int batteryStyle = Integer.valueOf((String) newValue);
+            int index = mStatusBarBattery.findIndexOfValue((String) newValue);
+            Settings.System.putInt(
+                    resolver, Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, batteryStyle);
+            mStatusBarBattery.setSummary(mStatusBarBattery.getEntries()[index]);
+            return true;
+        }
+        return false;
     }
 
 

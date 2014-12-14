@@ -105,7 +105,7 @@
     <!-- Status bar | Clock -->
     <string name="status_bar_title">Barra di stato</string>
     <string name="status_bar_style_title">Stile</string>
-    <string name="status_bar_clock">Orologio e data</string>
+    <string name="status_bar_clock">Orologio</string>
     <string name="enabled">Attivato</string>
     <string name="status_bar_clock_title">Stile dell\'orologio e data</string>
     <string name="clock_title_enable">Allineamento</string>
@@ -140,4 +140,11 @@
     <!-- tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Doppio tap per spegnere</string>
     <string name="double_tap_to_sleep_summary">Un doppio tap sulla barra di stato o sullo slide della schermata di blocco farà spegnere il display</string>
+
+    <!-- Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Batteria - Percentuale</string>
+    <string name="status_bar_battery_percentage_dialog_title">Percentuale Batteria</string>
+    <string name="status_bar_battery_percentage_default">Nascosta (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">All\'interno dell\'icona</string>
+    <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
 </resources>
