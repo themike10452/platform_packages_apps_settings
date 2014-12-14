@@ -147,4 +147,10 @@
     <string name="status_bar_battery_percentage_default">Nascosta (default)</string>
     <string name="status_bar_battery_percentage_text_inside">All\'interno dell\'icona</string>
     <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
+
+    <!-- App controls for keyguard notifications-->
+    <string name="app_notification_show_on_keyguard_title">Visualizza sulla schermata di blocco</string>
+    <string name="app_notification_show_on_keyguard_summary">Visualizza le notifiche da questa app sulla schermata di blocco</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Disabilita le notifiche correnti nella lockscreen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Non mostrare mai notifiche correnti di questa app nella lockscreen</string>
 </resources>
