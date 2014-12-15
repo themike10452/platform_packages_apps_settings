@@ -153,4 +153,10 @@
     <string name="app_notification_show_on_keyguard_summary">Visualizza le notifiche da questa app sulla schermata di blocco</string>
     <string name="app_notification_no_ongoing_on_keyguard_title">Disabilita le notifiche correnti nella lockscreen</string>
     <string name="app_notification_no_ongoing_on_keyguard_summary">Non mostrare mai notifiche correnti di questa app nella lockscreen</string>
+
+    <!-- Quick settings panel  -->
+    <string name="quick_settings_panel_title">Pannello QS</string>
+    <string name="title_general">Generale</string>
+    <string name="status_bar_quick_qs_pulldown_title">Impostazioni rapide</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Il bordo destro della barra di stato mostra le impostazioni rapide</string>
 </resources>
