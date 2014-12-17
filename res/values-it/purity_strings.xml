@@ -130,8 +130,8 @@
     <string name="clock_date_display_small">Caratteri ridotti</string>
     <string name="clock_date_display_normal">Caratteri normali</string>
     <string name="clock_date_style_normal">Normale</string>
-    <string name="clock_date_style_lowercase">Maiuscolo</string>
-    <string name="clock_date_style_uppercase">Minuscolo</string>
+    <string name="clock_date_style_lowercase">Minuscolo</string>
+    <string name="clock_date_style_uppercase">Maiuscolo</string>
 
     <!-- Brightness Control -->
     <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
