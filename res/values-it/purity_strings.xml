@@ -159,4 +159,15 @@
     <string name="title_general">Generale</string>
     <string name="status_bar_quick_qs_pulldown_title">Impostazioni rapide</string>
     <string name="status_bar_quick_qs_pulldown_summary">Il bordo destro della barra di stato mostra le impostazioni rapide</string>
+
+    <!-- Recents Close all button -->
+    <string name="show_recent_clear_all_button_title">Mostra pulsante di chiusura</string>
+    <string name="show_recent_clear_all_button_summary">Clicca per attivare il pulsante di chiusura app recenti</string>
+    <string name="recent_clear_all_button_location_title">Posizione pulsante di chiusura</string>
+    <string name="recent_clear_all_button_location_summary">Seleziona la posizione in cui visualizzare il pulsante di chiusura app recenti</string>
+    <string name="recent_clear_all_button_location_top_left">In alto a sx</string>
+    <string name="recent_clear_all_button_location_top_right">In alto a dx</string>
+    <string name="recent_clear_all_button_location_bottom_left">In basso a sx</string>
+    <string name="recent_clear_all_button_location_bottom_right">In basso a dx</string>
+    <string name="category_recent_panel_title" >Pannello app recenti</string>
 </resources>
