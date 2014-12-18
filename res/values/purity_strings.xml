@@ -20,7 +20,7 @@
     <string name="build_date_default">2012-01-01-0000</string>
 
     <!-- Purity Settings -->
-    <string name="header_category_rom_settings">PURITY</string>
+    <string name="header_category_rom_settings">Purity</string>
     <string name="status_bar_general_title">General</string>
 
     <!-- Settings screens -->
