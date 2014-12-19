@@ -200,4 +200,12 @@
     <!-- Screen security -->
     <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
     <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando viene immesso il PIN/password corretto.</string>
+
+    <!-- Power menu -->
+    <string name="power_menu_title">Menu tasto accensione</string>
+    <string name="power_menu_reboot_title">Menu riavvio</string>
+    <string name="power_menu_airplane_title">Modalità aereo</string>
+    <string name="power_menu_users_title">Cambia utente</string>
+    <string name="power_menu_lockdown_title">Blocco del dispositivo</string>
+    <string name="power_menu_sound_title">Pannello del suono</string>
 </resources>

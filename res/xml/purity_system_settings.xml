@@ -29,6 +29,11 @@
         android:fragment="com.android.settings.purity.QuickSettings"
         android:title="@string/quick_settings_panel_title" />
 
+    <PreferenceScreen
+        android:key="power_menu"
+        android:title="@string/power_menu_title"
+        android:fragment="com.android.settings.purity.PowerMenuActions" />
+
     <PreferenceCategory
             android:key="category_recent_panel"
             android:title="@string/category_recent_panel_title"/>
