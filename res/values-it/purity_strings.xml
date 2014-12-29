@@ -70,6 +70,8 @@
     <string name="advanced_sound_title">Impostazioni avanzate</string>
     <string name="sound_title">Pannello suoni</string>
     <string name="volume_adjust_sound_title">Suono di regolazione volume</string>
+    <string name="volbtn_music_controls_title">Controlli della musica con il volume rocker</string>
+    <string name="volbtn_music_controls_summary">Quando lo schermo è spento, premendo a lungo il volume rocker verranno cercate tracce musicali</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Volume sicurezza cuffie</string>
