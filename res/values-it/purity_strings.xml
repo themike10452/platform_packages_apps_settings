@@ -21,7 +21,7 @@
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Riavvio avanzato</string>
-    <string name="advanced_reboot_summary">Quando attivato include, nel menu apposito, le opzioni per il riavvio in modalità recovery, bootloader o per effettuare un riavvio veloce</string>
+    <string name="advanced_reboot_summary">Quando attivato include, nel menu apposito, le opzioni per il riavvio in modalità recovery, bootloader o per effettuare un riavvio veloce.</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Modifica impostazioni luce</string>
@@ -71,24 +71,24 @@
     <string name="sound_title">Pannello suoni</string>
     <string name="volume_adjust_sound_title">Suono di regolazione volume</string>
     <string name="volbtn_music_controls_title">Controlli della musica con il volume rocker</string>
-    <string name="volbtn_music_controls_summary">Quando lo schermo è spento, premendo a lungo il volume rocker verranno cercate tracce musicali</string>
+    <string name="volbtn_music_controls_summary">Quando lo schermo è spento, premendo a lungo il volume rocker verranno cercate tracce musicali.</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Volume sicurezza cuffie</string>
-    <string name="safe_headset_volume_summary">Prevenire il livello di volume elevato prima che le cuffie vengano inserite</string>
-    <string name="safe_headset_volume_warning_dialog_text">L\'ascolto ad alto volume per un lungo periodo potrebbe danneggiare il tuo udito</string>
+    <string name="safe_headset_volume_summary">Prevenire il livello di volume elevato prima che le cuffie vengano inserite.</string>
+    <string name="safe_headset_volume_warning_dialog_text">L\'ascolto ad alto volume per un lungo periodo potrebbe danneggiare il tuo udito.</string>
 
     <!-- Volume Keys Media Control -->
     <string name="volume_keys_control_media_stream">Controllo media</string>
-    <string name="volume_keys_control_media_stream_summary">Il bilanciere del volume regola il volume dei media piuttosto che quello delle notifiche</string>
+    <string name="volume_keys_control_media_stream_summary">Il bilanciere del volume regola il volume dei media piuttosto che quello delle notifiche.</string>
 
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Termina app con tasto</string>
-    <string name="kill_app_longpress_back_summary">Termina l\'applicazione in primo piano tenendo premuto il tasto indietro</string>
+    <string name="kill_app_longpress_back_summary">Termina l\'applicazione in primo piano tenendo premuto il tasto indietro.</string>
 
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Notifica metodo inserimento</string>
-    <string name="ime_switcher_notify_summary">Visualizza la notifica del selettore metodo di immissione</string>
+    <string name="ime_switcher_notify_summary">Visualizza la notifica del selettore metodo di immissione.</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotazione schermo</string>
@@ -102,7 +102,7 @@
 
     <!-- Volume wake -->
     <string name="pref_volume_wake_title">Risveglio tasti volume</string>
-    <string name="pref_volume_wake_summary">Premere i tasti del volume farà attivare il dispositivo</string>
+    <string name="pref_volume_wake_summary">Premere i tasti del volume farà attivare il dispositivo.</string>
 
     <!-- Status bar | Clock -->
     <string name="status_bar_title">Barra di stato</string>
@@ -117,13 +117,13 @@
     <string name="status_bar_am_pm_title">Stile AM/PM</string>
     <string name="status_bar_am_pm_info">orologio di 24 ore è abilitato</string>
     <string name="enable_clock_weekday">Giorno della settimana</string>
-    <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell\'ora</string>
+    <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell\'ora.</string>
     <string name="right_clock">A destra</string>
     <string name="center_clock">Al centro</string>
     <string name="dont_show">Non mostrare</string>
     <string name="am_pm_clock_none">Non mostrare</string>
     <string name="clock_date_display">Data</string>
-    <string name="clock_date_display_summary">Visualizzazione data personalizzata prima dell\'orologio</string>
+    <string name="clock_date_display_summary">Visualizzazione data personalizzata prima dell\'orologio.</string>
     <string name="clock_date_style">Stile della data</string>
     <string name="clock_date_format">Formato della data</string>
     <string name="clock_date_string_edittext_title">Deve essere in DateFormat es. GG/MM/AA</string>
@@ -137,11 +137,11 @@
 
     <!-- Brightness Control -->
     <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
-    <string name="status_bar_toggle_brightness_summary">Regolare la luminosità scorrendo attraverso la barra di stato</string>
+    <string name="status_bar_toggle_brightness_summary">Regolare la luminosità scorrendo attraverso la barra di stato.</string>
 
     <!-- tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Doppio tap per spegnere</string>
-    <string name="double_tap_to_sleep_summary">Un doppio tap sulla barra di stato o sullo slide della schermata di blocco farà spegnere il display</string>
+    <string name="double_tap_to_sleep_summary">Un doppio tap sulla barra di stato o sullo slide della schermata di blocco farà spegnere il display.</string>
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Stile icona</string>
@@ -160,21 +160,21 @@
 
     <!-- App controls for keyguard notifications-->
     <string name="app_notification_show_on_keyguard_title">Visualizza sulla schermata di blocco</string>
-    <string name="app_notification_show_on_keyguard_summary">Visualizza le notifiche da questa app sulla schermata di blocco</string>
+    <string name="app_notification_show_on_keyguard_summary">Visualizza le notifiche da questa app sulla schermata di blocco.</string>
     <string name="app_notification_no_ongoing_on_keyguard_title">Disabilita le notifiche correnti nella lockscreen</string>
-    <string name="app_notification_no_ongoing_on_keyguard_summary">Non mostrare mai notifiche correnti di questa app nella lockscreen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Non mostrare mai notifiche correnti di questa app nella lockscreen.</string>
 
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Pannello QS</string>
     <string name="title_general">Generale</string>
     <string name="status_bar_quick_qs_pulldown_title">Impostazioni rapide</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Il bordo destro della barra di stato mostra le impostazioni rapide</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Il bordo destro della barra di stato mostra le impostazioni rapide.</string>
 
     <!-- Recents Close all button -->
     <string name="show_recent_clear_all_button_title">Mostra pulsante di chiusura</string>
-    <string name="show_recent_clear_all_button_summary">Attiva/Disattiva il pulsante di chiusura app recenti</string>
+    <string name="show_recent_clear_all_button_summary">Attiva/Disattiva il pulsante di chiusura app recenti.</string>
     <string name="recent_clear_all_button_location_title">Posizione del pulsante</string>
-    <string name="recent_clear_all_button_location_summary">Seleziona la posizione del pulsante di chiusura app recenti</string>
+    <string name="recent_clear_all_button_location_summary">Seleziona la posizione del pulsante di chiusura app recenti.</string>
     <string name="recent_clear_all_button_location_top_left">In alto a sinistra</string>
     <string name="recent_clear_all_button_location_top_right">In alto a destra</string>
     <string name="recent_clear_all_button_location_bottom_left">In basso a sinistra</string>
@@ -183,12 +183,12 @@
 
     <!-- Enable power menu -->
     <string name="lockscreen_enable_power_menu_title">Abilita il tasto di accensione</string>
-    <string name="lockscreen_enable_power_menu_summary">Mostra il tasto di accensione quando lo schermo è bloccato</string>
+    <string name="lockscreen_enable_power_menu_summary">Mostra il tasto di accensione quando lo schermo è bloccato.</string>
 
     <!-- Power notifications -->
     <string name="power_notifications_category_title">Notifica cavo alimentazione</string>
     <string name="power_notifications_enable_title">Attiva</string>
-    <string name="power_notifications_enable_summary">Emetti un suono quando si connette o disconnette l\'alimentatore</string>
+    <string name="power_notifications_enable_summary">Emetti un suono quando si connette o disconnette l\'alimentatore.</string>
     <string name="power_notifications_vibrate_title">Vibra</string>
     <string name="power_notifications_ringtone_title">Suono di notifica</string>
     <string name="power_notifications_ringtone_silent">Silenzioso</string>
@@ -196,4 +196,8 @@
     <!-- Disable QS on secure lockscreen -->
     <string name="block_on_secure_keyguard_title">Disabilita nella schermata di blocco</string>
     <string name="block_on_secure_keyguard_summary">Disattiva i quick settings nella schermata di blocco sicura.</string>
+
+    <!-- Screen security -->
+    <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+    <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando viene immesso il PIN/password corretto.</string>
 </resources>

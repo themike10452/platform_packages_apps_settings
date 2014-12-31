@@ -28,7 +28,7 @@
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Advanced reboot</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot.</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
@@ -78,24 +78,24 @@
     <string name="sound_title">Sound</string>
     <string name="volume_adjust_sound_title">Volume adjust sound</string>
     <string name="volbtn_music_controls_title">Playback control</string>
-    <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks</string>
+    <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks.</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
-    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in</string>
+    <string name="safe_headset_volume_summary">Prevent loud volume levels when headset is first plugged in.</string>
     <string name="safe_headset_volume_warning_dialog_text">Listening at high volume for long periods may damage your hearing. Disable it with caution.</string>
 
     <!-- Volume Keys Media Control -->
     <string name="volume_keys_control_media_stream">Media control</string>
-    <string name="volume_keys_control_media_stream_summary">Volume keys control media volume rather than notifications</string>
+    <string name="volume_keys_control_media_stream_summary">Volume keys control media volume rather than notifications.</string>
 
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
-    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button.</string>
 
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Selector notification</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+    <string name="ime_switcher_notify_summary">Display input method selector notification.</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
@@ -109,7 +109,7 @@
 
     <!-- Volume wake up -->
     <string name="pref_volume_wake_title">Volume rocker wake</string>
-    <string name="pref_volume_wake_summary">Pressing the volume rocker up/down will wake the device</string>
+    <string name="pref_volume_wake_summary">Pressing the volume rocker up/down will wake the device.</string>
 
     <!-- Status bar | Clock -->
     <string name="status_bar_title">Status bar</string>
@@ -123,12 +123,12 @@
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
     <string name="enable_clock_weekday">Day of the week</string>
-    <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
+    <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time.</string>
     <string name="right_clock">Right clock</string>
     <string name="center_clock">Center clock</string>
     <string name="dont_show">Don\'t show</string>
     <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_display_summary">Display custom date before the clock.</string>
     <string name="clock_date_style">Date style</string>
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
@@ -146,11 +146,11 @@
 
     <!-- Brightness Control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar.</string>
 
     <!-- tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep.</string>
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Icon style</string>
@@ -169,23 +169,23 @@
 
     <!-- App controls for keyguard notifications-->
     <string name="app_notification_show_on_keyguard_title">Show on lockscreen</string>
-    <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lockscreen</string>
+    <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lockscreen.</string>
     <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lockscreen</string>
-    <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lockscreen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lockscreen.</string>
 
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Quick Settings</string>
     <string name="title_general">General</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings.</string>
 
     <string name="category_recent_panel_title" >Recents menu</string>
 
     <!--  Recents close all button -->
     <string name="show_recent_clear_all_button_title">Show clear all button</string>
-    <string name="show_recent_clear_all_button_summary">Tick to show or untick to hide the clear all button within the recent applications screen</string>
+    <string name="show_recent_clear_all_button_summary">Tick to show or untick to hide the clear all button within the recent applications screen.</string>
     <string name="recent_clear_all_button_location_title">Clear all button position</string>
-    <string name="recent_clear_all_button_location_summary">Choose in which corner the clear all recent apps button is shown</string>
+    <string name="recent_clear_all_button_location_summary">Choose in which corner the clear all recent apps button is shown.</string>
     <string name="recent_clear_all_button_location_top_left">Top left</string>
     <string name="recent_clear_all_button_location_top_right">Top right</string>
     <string name="recent_clear_all_button_location_bottom_left">Bottom left</string>
@@ -193,7 +193,7 @@
 
     <!-- Enable power menu -->
     <string name="lockscreen_enable_power_menu_title">Enable power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Show power menu when screen is locked</string>
+    <string name="lockscreen_enable_power_menu_summary">Show power menu when screen is locked.</string>
 
     <!-- Category title for Charging sounds (Power state change) specific Settings.
          [CHAR LIMIT=40] -->
@@ -201,7 +201,7 @@
 
     <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
     <string name="power_notifications_enable_title">Enable</string>
-    <string name="power_notifications_enable_summary">Play a sound when connecting or disconnecting the charger</string>
+    <string name="power_notifications_enable_summary">Play a sound when connecting or disconnecting the charger.</string>
     <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
     <string name="power_notifications_vibrate_title">Vibrate</string>
     <!-- Sound settings, Charging sounds ringtone selection, preference label -->
@@ -212,4 +212,8 @@
     <!-- Disable QS on secure lockscreen -->
     <string name="block_on_secure_keyguard_title">Disable on lockscreen</string>
     <string name="block_on_secure_keyguard_summary">Disable quick settings on secure lockscreen.</string>
+
+    <!-- Screen security -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered.</string>
 </resources>
