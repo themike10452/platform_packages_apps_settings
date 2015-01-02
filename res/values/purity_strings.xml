@@ -178,10 +178,20 @@
     <string name="title_general">General</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings.</string>
-
-    <string name="category_recent_panel_title" >Recents menu</string>
+    <string name="qs_category_style">QS Style</string>
+    <string name="qs_order_title">Select and order tiles</string>
+    <string name="add_qs">Add new tile</string>
+    <string name="cast_screen">Cast screen</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="qs_action_delete">Delete</string>
+    <string name="qs_action_add">Add</string>
+    <string name="qs_action_no_more_tiles">No more tiles available</string>
+    <string name="qs_main_tiles_title">Enlarge first row</string>
+    <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
+    <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
 
     <!--  Recents close all button -->
+    <string name="category_recent_panel_title" >Recents menu</string>
     <string name="show_recent_clear_all_button_title">Show clear all button</string>
     <string name="show_recent_clear_all_button_summary">Tick to show or untick to hide the clear all button within the recent applications screen.</string>
     <string name="recent_clear_all_button_location_title">Clear all button position</string>
@@ -228,4 +238,6 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+
+
 </resources>

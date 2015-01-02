@@ -27,6 +27,7 @@ import com.android.internal.widget.LockPatternUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.purity.qs.QSTiles;
 
 public class QuickSettings extends SettingsPreferenceFragment
             implements OnPreferenceChangeListener  {
@@ -36,6 +37,7 @@ public class QuickSettings extends SettingsPreferenceFragment
     private static final String PREF_BLOCK_ON_SECURE_KEYGUARD = "block_on_secure_keyguard";
 
     SwitchPreference mBlockOnSecureKeyguard;
+    private Preference mQSTiles;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -54,11 +56,16 @@ public class QuickSettings extends SettingsPreferenceFragment
             prefs.removePreference(mBlockOnSecureKeyguard);
         }
 
+        mQSTiles = findPreference("qs_order");
     }
 
     @Override
     public void onResume() {
         super.onResume();
+
+        int qsTileCount = QSTiles.determineTileCount(getActivity());
+        mQSTiles.setSummary(getResources().getQuantityString(R.plurals.qs_tiles_summary,
+                    qsTileCount, qsTileCount));
     }
 
     @Override
