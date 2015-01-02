@@ -190,4 +190,8 @@
     <string name="recent_clear_all_button_location_top_right">Top right</string>
     <string name="recent_clear_all_button_location_bottom_left">Bottom left</string>
     <string name="recent_clear_all_button_location_bottom_right">Bottom right</string>
+
+    <!-- Enable power menu -->
+    <string name="lockscreen_enable_power_menu_title">Enable power menu</string>
+    <string name="lockscreen_enable_power_menu_summary">Show power menu when screen is locked</string>
 </resources>

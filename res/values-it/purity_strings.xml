@@ -180,4 +180,8 @@
     <string name="recent_clear_all_button_location_bottom_left">In basso a sinistra</string>
     <string name="recent_clear_all_button_location_bottom_right">In basso a destra</string>
     <string name="category_recent_panel_title" >Pannello app recenti</string>
+
+    <!-- Enable power menu -->
+    <string name="lockscreen_enable_power_menu_title">Abilita il tasto di accensione</string>
+    <string name="lockscreen_enable_power_menu_summary">Mostra il tasto di accensione quando lo schermo è bloccato</string>
 </resources>
