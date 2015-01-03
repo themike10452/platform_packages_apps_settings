@@ -184,4 +184,12 @@
     <!-- Enable power menu -->
     <string name="lockscreen_enable_power_menu_title">Abilita il tasto di accensione</string>
     <string name="lockscreen_enable_power_menu_summary">Mostra il tasto di accensione quando lo schermo è bloccato</string>
+
+    <!-- Power notifications -->
+    <string name="power_notifications_category_title">Notifica cavo alimentazione</string>
+    <string name="power_notifications_enable_title">Attiva</string>
+    <string name="power_notifications_enable_summary">Emetti un suono quando si connette o disconnette l\'alimentatore</string>
+    <string name="power_notifications_vibrate_title">Vibra</string>
+    <string name="power_notifications_ringtone_title">Suono di notifica</string>
+    <string name="power_notifications_ringtone_silent">Silenzioso</string>
 </resources>
