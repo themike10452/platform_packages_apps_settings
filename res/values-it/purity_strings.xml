@@ -192,4 +192,8 @@
     <string name="power_notifications_vibrate_title">Vibra</string>
     <string name="power_notifications_ringtone_title">Suono di notifica</string>
     <string name="power_notifications_ringtone_silent">Silenzioso</string>
+
+    <!-- Disable QS on secure lockscreen -->
+    <string name="block_on_secure_keyguard_title">Disabilita nella schermata di blocco</string>
+    <string name="block_on_secure_keyguard_summary">Disattiva i quick settings nella schermata di blocco sicura.</string>
 </resources>
