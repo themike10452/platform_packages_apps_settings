@@ -185,6 +185,7 @@
     <string name="qs_main_tiles_summary_off">Tre tiles per ogni riga.</string>
     <string name="qs_advanced_location_title">Geolocalizzazione avanzata quick settings</string>
     <string name="qs_advanced_location_summary">Abilita la geolocalizzazione avanzata nei quick settings.</string>
+    <string name="qs_brightness_slider_title">Mostra barra luminosità</string>
 
     <!-- Recents Close all button -->
     <string name="show_recent_clear_all_button_title">Mostra pulsante di chiusura</string>
