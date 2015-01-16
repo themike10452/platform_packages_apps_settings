@@ -74,6 +74,10 @@
     <string name="advanced_sound_title">Napredne postavke</string>
     <string name="sound_title">Zvuk</string>
     <string name="volume_adjust_sound_title">Zvuk podešavanja tona</string>
+    <string name="volbtn_music_controls_title">Kontrola pjesama tipkama za glasnoću</string>
+    <string name="volbtn_music_controls_summary">Kada je zaslon ugašen, dugo držanje tipki glasnoće brzo će tražiti kroz trenutnu pjesmu</string>
+    <string name="volbtn_music_controls_title">Kontrola pjesama tipkama za glasnoću</string>
+    <string name="volbtn_music_controls_summary">Kada je zaslon ugašen, dugo držanje tipki glasnoće brzo će tražiti kroz trenutnu pjesmu</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Sigurna glasnoća za slušalice</string>
@@ -108,7 +112,7 @@
 
     <!-- Status bar | Clock -->
     <string name="status_bar_title">Statusna traka</string>
-    <string name="status_bar_style_title">Izgled</string>
+    <string name="status_bar_battery_title">Baterija</string>
     <string name="status_bar_clock">Sat i datum</string>
     <string name="clock_enabled">Omogućeno</string>
     <string name="clock_disabled">Onemogućeno</string>
@@ -146,6 +150,14 @@
     <!-- tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Dotakni dva puta za spavanje</string>
     <string name="double_tap_to_sleep_summary">Dotakni statusnu traku dva puta za spavanje uređaja</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Izgled ikone</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona okomito</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikona vodoravno</string>
+    <string name="status_bar_battery_style_circle">Krug</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Skriveno</string>
 
     <!-- Battery percentage -->
     <string name="status_bar_battery_percentage_title">Prikaži postotak baterije</string>
