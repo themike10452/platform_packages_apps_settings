@@ -243,4 +243,7 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings.</string>
+
+   <!-- Toast message when trying to open system app AppOps -->
+   <string name="appops_sys_app">Cannot change operations for system apps</string>
 </resources>
