@@ -72,6 +72,8 @@
     <string name="volume_adjust_sound_title">Suono di regolazione volume</string>
     <string name="volbtn_music_controls_title">Controlli della musica con il volume rocker</string>
     <string name="volbtn_music_controls_summary">Quando lo schermo è spento, premendo a lungo il volume rocker verranno cercate tracce musicali.</string>
+    <string name="link_volume_option_title">Collega volumi della suoneria &amp; e delle notifiche</string>
+    <string name="notification_volume_option_title">Volume delle notifiche</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Volume sicurezza cuffie</string>
@@ -169,6 +171,20 @@
     <string name="title_general">Generale</string>
     <string name="status_bar_quick_qs_pulldown_title">Impostazioni rapide</string>
     <string name="status_bar_quick_qs_pulldown_summary">Il bordo destro della barra di stato mostra le impostazioni rapide.</string>
+    <string name="qs_category_style">Stile</string>
+    <string name="qs_order_title">Scegli e ordina i tiles</string>
+    <string name="add_qs">Aggiungi nuovo tile</string>
+    <string name="cast_screen">Trasmetti schermo</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="notifications">Audio</string>
+    <string name="qs_action_delete">Elimina</string>
+    <string name="qs_action_add">Aggiungi</string>
+    <string name="qs_action_no_more_tiles">Nessun altro tile disponibile</string>
+    <string name="qs_main_tiles_title">Ingrandire la prima riga</string>
+    <string name="qs_main_tiles_summary_on">Due tiles principali nella prima riga.</string>
+    <string name="qs_main_tiles_summary_off">Tre tiles per ogni riga.</string>
+    <string name="qs_advanced_location_title">Geolocalizzazione avanzata quick settings</string>
+    <string name="qs_advanced_location_summary">Abilita la geolocalizzazione avanzata nei quick settings.</string>
 
     <!-- Recents Close all button -->
     <string name="show_recent_clear_all_button_title">Mostra pulsante di chiusura</string>
