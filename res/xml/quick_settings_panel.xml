@@ -38,11 +38,6 @@
     <PreferenceCategory
         android:title="@string/qs_category_style">
 
-        <com.android.settings.purity.SecureSettingSwitchPreference
-            android:key="qs_show_brightness_slider"
-            android:title="@string/qs_brightness_slider_title"
-            android:defaultValue="true"/>
-
         <PreferenceScreen
             android:key="qs_order"
             android:title="@string/qs_order_title"
@@ -55,11 +50,16 @@
             android:summaryOff="@string/qs_main_tiles_summary_off"
             android:defaultValue="true" />
 
-    <com.android.settings.purity.SystemSettingSwitchPreference
-        android:key="qs_location_advanced"
-        android:title="@string/qs_advanced_location_title"
-        android:summary="@string/qs_advanced_location_summary"
-        android:defaultValue="false" />
+        <com.android.settings.purity.SecureSettingSwitchPreference
+            android:key="qs_show_brightness_slider"
+            android:title="@string/qs_brightness_slider_title"
+            android:defaultValue="true"/>
+
+        <com.android.settings.purity.SystemSettingSwitchPreference
+            android:key="qs_location_advanced"
+            android:title="@string/qs_advanced_location_title"
+            android:summary="@string/qs_advanced_location_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 
