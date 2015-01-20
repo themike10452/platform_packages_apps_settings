@@ -72,7 +72,7 @@
     <string name="volume_adjust_sound_title">Suono di regolazione volume</string>
     <string name="volbtn_music_controls_title">Controlli della musica con il volume rocker</string>
     <string name="volbtn_music_controls_summary">Quando lo schermo è spento, premendo a lungo il volume rocker verranno cercate tracce musicali.</string>
-    <string name="link_volume_option_title">Collega volumi della suoneria &amp; e delle notifiche</string>
+    <string name="link_volume_option_title">Collega volume suoneria &amp; e notifiche</string>
     <string name="notification_volume_option_title">Volume delle notifiche</string>
 
     <!-- Safe headset volume restore checkbox -->
