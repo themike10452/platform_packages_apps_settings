@@ -13,7 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="qs_tiles_summary">
-        <item quantity="one">1 tile configured.</item>
-        <item quantity="other">%d tiles configured.</item>
+        <item quantity="one">1 tile configurato.</item>
+        <item quantity="other">%d tiles configurati.</item>
     </plurals>
 </resources>
