@@ -185,6 +185,13 @@
     <string name="qs_brightness_slider_title">Mostra barra luminosità</string>
 
     <string name="qs_tile_notifications">Audio</string>
+    <string name="qs_tile_cellular_data">Rete dati</string>
+    <string name="qs_tile_airplane_mode">Modalità aereo</string>
+    <string name="qs_tile_display_rotation">Rotazione</string>
+    <string name="qs_tile_flashlight">Torcia</string>
+    <string name="qs_tile_location">Posizione</string>
+    <string name="qs_tile_cast_screen">Trasmetti schermo</string>
+    <string name="qs_tile_lockscreen">Blocco schermo</string>
 
     <!-- Recents Close all button -->
     <string name="show_recent_clear_all_button_title">Mostra pulsante di chiusura</string>

@@ -205,6 +205,7 @@
     <string name="qs_tile_nfc">NFC</string>
     <string name="qs_tile_lockscreen">Lockscreen</string>
     <string name="qs_tile_notifications">Sound</string>
+    <string name="qs_tile_lte">LTE</string>
 
     <!--  Recents close all button -->
     <string name="category_recent_panel_title" >Recents menu</string>
