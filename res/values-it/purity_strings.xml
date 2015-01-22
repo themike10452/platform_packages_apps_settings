@@ -192,6 +192,7 @@
     <string name="qs_tile_location">Posizione</string>
     <string name="qs_tile_cast_screen">Trasmetti schermo</string>
     <string name="qs_tile_lockscreen">Blocco schermo</string>
+    <string name="qs_expanded_desktop_tile">Desktop esteso</string>
 
     <!-- Recents Close all button -->
     <string name="show_recent_clear_all_button_title">Mostra pulsante di chiusura</string>
