@@ -93,6 +93,7 @@ public class QSTileHolder {
                 break;
             default:
                 return null;
+        }
 
         String name = stringId != -1 ? context.getString(stringId) : null;
         return new QSTileHolder(resourceName, tileType, name);
