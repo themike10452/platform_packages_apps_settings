@@ -231,4 +231,28 @@
     <string name="power_menu_users_title">Cambia utente</string>
     <string name="power_menu_lockdown_title">Blocco del dispositivo</string>
     <string name="power_menu_sound_title">Pannello del suono</string>
+
+    <!-- Expanded Desktop -->
+    <string name="power_menu_expanded_desktop">Desktop esteso</string>
+    <string name="expanded_hide_nothing">Disattivato</string>
+    <string name="expanded_hide_status">Nascondi barra di stato</string>
+    <string name="expanded_hide_navigation">Nascondi barra di navigazione</string>
+    <string name="expanded_hide_both">Nascondi entrambe</string>
+    <string name="expanded_nothing_to_show">Per selezionare una configurazione personalizzata per-app disattivare l\'opzione "Attiva per tutte".</string>
+    <string name="expanded_desktop_state">Modalità desktop esteso</string>
+    <string name="expanded_enabled_for_all">Attiva per tutte</string>
+    <string name="expanded_user_configurable">Configurazione utente</string>
+
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_settings_title">Blocco schermo</string>
+    <string name="lockscreen_targets_message">Scorciatoie di sblocco</string>
+    <string name="lockscreen_default_target">Default</string>
+    <string name="lockscreen_message">Tocca l\'icona a destra o sinistra per riassegnare una scorciatoia di sblocco.</string>
+    <string name="lockscreen_choose_action_title">Scegli azione</string>
+
+    <!-- Title for application group setting screen -->
+    <string name="profile_applist_title">Applicazioni</string>
+    <string name="picker_activities">Attività</string>
+    <string name="select_custom_app_title">Scegli applicazione</string>
+    <string name="select_custom_activity_title">Scegli attività personalizzata</string>
 </resources>
