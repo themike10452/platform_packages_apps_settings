@@ -242,6 +242,9 @@
     <string name="expanded_desktop_state">Modalità desktop esteso</string>
     <string name="expanded_enabled_for_all">Attiva per tutte</string>
     <string name="expanded_user_configurable">Configurazione utente</string>
+    <string name="expanded_desktop_style">Stile desktop esteso</string>
+    <string name="expanded_desktop_style_description">Scegli lo stile desktop esteso predefinito</string>
+    <string name="expanded_desktop_title">Opzioni desktop esteso</string>
 
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_settings_title">Blocco schermo</string>
