@@ -17,6 +17,21 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <PreferenceCategory
+        android:key="pref_general_settings"
+        android:title="@string/title_general" >
+
+        <com.android.settings.purity.SystemSettingSwitchPreference
+                android:key="navigation_bar_menu_arrow_keys"
+                android:title="@string/navigation_bar_arrow_keys_title"
+                android:summary="@string/navigation_bar_arrow_keys_summary"
+                android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/qs_category_style">
+
         <PreferenceScreen
             android:key="navigation_bar"
             android:fragment="com.android.settings.purity.NavBar"
@@ -31,10 +46,6 @@
             android:defaultValue="48"
             android:persistent="false" />
 
-        <com.android.settings.purity.SystemSettingSwitchPreference
-                android:key="navigation_bar_menu_arrow_keys"
-                android:title="@string/navigation_bar_arrow_keys_title"
-                android:summary="@string/navigation_bar_arrow_keys_summary"
-                android:defaultValue="false" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
