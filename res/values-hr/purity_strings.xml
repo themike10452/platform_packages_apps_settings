@@ -171,4 +171,134 @@
     <string name="app_notification_show_on_keyguard_summary">Prikaži obavijesti od ove aplikacije na zaključanom zaslonu</string>
     <string name="app_notification_no_ongoing_on_keyguard_title">Onemogući obavijesti u tijeku na zaključanom zaslonu</string>
     <string name="app_notification_no_ongoing_on_keyguard_summary">Nikad ne prikazuj obavijesti u tijeku od ove aplikacije na zaključanom zaslonu</string>
+
+    <string name="navigation_bar_height_0">0dp (hide)</string>
+
+    <!-- App controls for keyguard notifications-->
+    <string name="app_notification_show_on_keyguard_title">Prikaži na zaključanom zaslonu</string>
+    <string name="app_notification_show_on_keyguard_summary">Prikaži obavijesti ove aplikacije na zaključanom zaslonu.</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Onemogući obavijesti u tijeku na zaključanom zaslonu.</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Nikad ne prikazuj obavijesti u tijeku od ove aplikacije na zaključanom zaslonu.</string>
+
+    <!-- Quick settings panel  -->
+    <string name="quick_settings_panel_title">Brze postavke</string>
+    <string name="title_general">Općenito</string>
+    <string name="status_bar_quick_qs_pulldown_title">Brzo otvaranje</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Povlačenje desnog ruba statusne trake otvara brze postavke.</string>
+    <string name="qs_category_style">Izgled</string>
+    <string name="qs_order_title">Odabir i raspored</string>
+    <string name="add_qs">Dodaj novu brzu postavku</string>
+    <string name="qs_action_delete">Izbriši</string>
+    <string name="qs_action_add">Dodaj</string>
+    <string name="qs_action_no_more_tiles">Nema dostupnih brzih postavki</string>
+    <string name="qs_main_tiles_title">Povećaj prvi red</string>
+    <string name="qs_main_tiles_summary_on">Dvije glavne brze postavke u prvom redu.</string>
+    <string name="qs_main_tiles_summary_off">Tri brze postavke u svakom redu.</string>
+    <string name="qs_advanced_location_title">Brza postavka napredne lokacije</string>
+    <string name="qs_advanced_location_summary">Omogući napredne postavke lokacije u brzim postavkama.</string>
+    <string name="qs_brightness_slider_title">Prikaži klizač svjetline</string>
+
+    <string name="qs_tile_wifi">Wi\u2011Fi</string>
+    <string name="qs_tile_bluetooth">Bluetooth</string>
+    <string name="qs_tile_cellular_data">Podatkovna veza</string>
+    <string name="qs_tile_airplane_mode">Avionski način</string>
+    <string name="qs_tile_display_rotation">Zakretanje zaslona</string>
+    <string name="qs_tile_flashlight">Svjetiljka</string>
+    <string name="qs_tile_location">Lokacija</string>
+    <string name="qs_tile_cast_screen">Emitiranje zaslona</string>
+    <string name="qs_tile_hotspot">Žarišna točka</string>
+    <string name="qs_tile_nfc">NFC</string>
+    <string name="qs_tile_lockscreen">Zaključani zaslon</string>
+    <string name="qs_tile_notifications">Zvuk</string>
+    <string name="qs_tile_lte">LTE</string>
+
+    <!--  Recents close all button -->
+    <string name="category_recent_panel_title" >Nedavne aplikacije</string>
+    <string name="show_recent_clear_all_button_title">Prikaži "očisti sve" tipku</string>
+    <string name="show_recent_clear_all_button_summary">Uključi za prikaz tipke za čišćenje svih nedavnih aplikacija u prozoru nedavnih aplikacija.</string>
+    <string name="recent_clear_all_button_location_title">Pozicija "očisti sve" tipke</string>
+    <string name="recent_clear_all_button_location_summary">Odaberi gdje će se prikazivati tipka za čišćenje svih nedavnih aplikacija.</string>
+    <string name="recent_clear_all_button_location_top_left">Gore lijevo</string>
+    <string name="recent_clear_all_button_location_top_right">Gore desno</string>
+    <string name="recent_clear_all_button_location_bottom_left">Dolje lijevo</string>
+    <string name="recent_clear_all_button_location_bottom_right">Dolje desno</string>
+
+    <!-- Enable power menu -->
+    <string name="lockscreen_enable_power_menu_title">Omogući izbornik isključivanja</string>
+    <string name="lockscreen_enable_power_menu_summary">Prikaži izbornik isključivanja uređaja kada je zaslon zaključan.</string>
+
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="power_notifications_category_title">Zvukovi punjenja</string>
+
+    <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
+    <string name="power_notifications_enable_title">Omogući</string>
+    <string name="power_notifications_enable_summary">Sviraj zvuk tijekom spajanja i odspajanja punjača.</string>
+    <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
+    <string name="power_notifications_vibrate_title">Vibriraj</string>
+    <!-- Sound settings, Charging sounds ringtone selection, preference label -->
+    <string name="power_notifications_ringtone_title">Zvuk obavijesti</string>
+    <!-- Sound settings, charging sounds label for ringtone == none -->
+    <string name="power_notifications_ringtone_silent">Utišan</string>
+
+    <!-- Disable QS on secure lockscreen -->
+    <string name="block_on_secure_keyguard_title">Onemogući na zaključanom zaslonu</string>
+    <string name="block_on_secure_keyguard_summary">Onemogući brze postavke na zaključanom zaslonu.</string>
+
+    <!-- Screen security -->
+    <string name="unlock_quick_unlock_control_title">Brzo otključavanje</string>
+    <string name="unlock_quick_unlock_control_summary">Automatski otključaj kada su unešeni točan PIN/lozinka.</string>
+
+    <!-- Power menu -->
+    <string name="power_menu_title">Izbornik isključivanja</string>
+    <string name="power_menu_reboot_title">Ponovno pokretanje</string>
+    <string name="power_menu_screenshot_title">Snimak zaslona</string>
+    <string name="power_menu_airplane_title">Avionski način</string>
+    <string name="power_menu_users_title">Promjena korisnika</string>
+    <string name="power_menu_settings_title">Prečac postavki</string>
+    <string name="power_menu_lockdown_title">Zaključavanje uređaja</string>
+    <string name="power_menu_bug_report_title">Izvješće o bugu</string>
+    <string name="power_menu_sound_title">Postavke zvuka</string>
+    <string name="power_menu_bug_report_disabled">Izvješćivanje o bugu je onemogućeno u opcijama za razvojne programere.</string>
+
+
+    <!-- Expanded Desktop -->
+    <string name="power_menu_expanded_desktop">Proširena radna površina</string>
+    <string name="expanded_hide_nothing">Prikaži sve</string>
+    <string name="expanded_hide_status">Sakrij statusnu traku</string>
+    <string name="expanded_hide_navigation">Sakrij navigacijsku traku</string>
+    <string name="expanded_hide_both">Sakrij oboje</string>
+    <string name="expanded_nothing_to_show">Onemogući "Uključeno za sve" kako bi dodao postavke proširene radne površine za svaku aplikaciju posebno</string>
+    <string name="expanded_desktop_state">Stanje proširenja</string>
+    <string name="expanded_enabled_for_all">Uključeno za sve</string>
+    <string name="expanded_user_configurable">Podesivo od strane korisnika</string>
+
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_settings_title">Zaključani zaslon</string>
+    <string name="lockscreen_targets_message">Prečaci zaključanog zaslona</string>
+    <string name="lockscreen_default_target">Zadano</string>
+    <string name="lockscreen_none_target">Ništa</string>
+    <string name="lockscreen_message">Dodirni lijevu ili desnu ikonu kako bi dodijelio prečac na zaključanom zaslonu.</string>
+    <string name="lockscreen_choose_action_title">Odaberi</string>
+
+    <!-- Title for application group setting screen -->
+    <string name="profile_applist_title">Aplikacije</string>
+    <string name="picker_activities">Aktivnosti</string>
+    <string name="select_custom_app_title">Odaberite</string>
+    <string name="select_custom_activity_title">Odaberite aktivnost</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Hostname uređaja</string>
+
+    <!-- Navbar settings -->
+    <string name="navbar_settings_title">Navigacijska traka</string>
+    <string name="navigation_bar_category">Navigacijska traka</string>
+    <string name="navigation_bar_title">Tipke i raspored</string>
+    <string name="navigation_bar_help_text">Za početak dodirni ikonu za uređivanje kako bi otključao navigacijsku traku i omogućio izmjene.\n\nMožeš dodirnuti ikonu za promjenu prečaca, ili dugo držati za promjenu rasporeda ikona.\n\nDodirni "spremi" za spremanje svojih promjena, ili "vraćanje" za vraćanje zadanih postavki.</string>
+    <string name="navigation_restore_button_text">Vraćanje\nzadane postavke</string>
+    <string name="navigation_edit_button_text">Uredi</string>
+    <string name="navigation_save_button_text">Spremi</string>
+    <string name="navigation_bar_reset_message">Izbriši trenutne i vrati zadane postavke?</string>
+    <string name="navigation_bar_arrow_keys_title">Prikaži strelice tijekom pisanja</string>
+    <string name="navigation_bar_arrow_keys_summary">Prikaži tipke sa strelicama za pomicanje lijevo i desno tijekom pisanja tipkovnicom. Onemogućuje tipku za promjenu načina pisanja.</string>
 </resources>
