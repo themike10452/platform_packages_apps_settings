@@ -16,4 +16,8 @@
         <item quantity="one">1 tile configurato.</item>
         <item quantity="other">%d tiles configurati.</item>
     </plurals>
+    <plurals name="app_ops_count">
+        <item quantity="one">1 volta</item>
+        <item quantity="other">%d volte</item>
+    </plurals>
 </resources>
