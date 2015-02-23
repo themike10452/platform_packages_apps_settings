@@ -16,7 +16,12 @@
 
 package com.android.settings.purity;
 
+import android.content.ContentResolver;
+import android.content.Context;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.UserHandle;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceScreen;
@@ -32,12 +37,12 @@ import com.android.settings.purity.qs.QSTiles;
 public class QuickSettings extends SettingsPreferenceFragment
             implements OnPreferenceChangeListener  {
 
-    private static final String TAG = "QuickSettingsPanel";
-
     private static final String PREF_BLOCK_ON_SECURE_KEYGUARD = "block_on_secure_keyguard";
+    private static final String QUICK_PULLDOWN = "quick_pulldown";
 
     SwitchPreference mBlockOnSecureKeyguard;
     private Preference mQSTiles;
+    private ListPreference mQuickPulldown;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -60,6 +65,21 @@ public class QuickSettings extends SettingsPreferenceFragment
     }
 
     @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        PreferenceScreen prefSet = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+        mQuickPulldown = (ListPreference) prefSet.findPreference(QUICK_PULLDOWN);
+
+        mQuickPulldown.setOnPreferenceChangeListener(this);
+        int quickPulldownValue = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_QUICK_PULLDOWN, 0, UserHandle.USER_CURRENT);
+        mQuickPulldown.setValue(String.valueOf(quickPulldownValue));
+        updatePulldownSummary(quickPulldownValue);
+    }
+
+    @Override
     public void onResume() {
         super.onResume();
 
@@ -76,6 +96,27 @@ public class QuickSettings extends SettingsPreferenceFragment
                     (Boolean) newValue ? 1 : 0);
             return true;
         }
+        else if (preference == mQuickPulldown) {
+            int quickPulldownValue = Integer.valueOf((String) newValue);
+            Settings.System.putIntForUser(getContentResolver(), Settings.System.QS_QUICK_PULLDOWN,
+                    quickPulldownValue, UserHandle.USER_CURRENT);
+            updatePulldownSummary(quickPulldownValue);
+            return true;
+        }
         return false;
+    }
+
+    private void updatePulldownSummary(int value) {
+        Resources res = getResources();
+
+        if (value == 0) {
+            // quick pulldown deactivated
+            mQuickPulldown.setSummary(res.getString(R.string.quick_pulldown_off));
+        } else {
+            String direction = res.getString(value == 2
+                    ? R.string.quick_pulldown_summary_left
+                    : R.string.quick_pulldown_summary_right);
+            mQuickPulldown.setSummary(res.getString(R.string.quick_pulldown_summary, direction));
+        }
     }
 }
