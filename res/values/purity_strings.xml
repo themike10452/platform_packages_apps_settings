@@ -517,4 +517,5 @@
     <string name="network_traffic_autohide">Auto hide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="status_bar_traffic_settings_summary">Use only with left clock.</string>
 </resources>

@@ -424,4 +424,5 @@
     <string name="network_traffic_autohide">Nascondi automaticamente</string>
     <string name="network_traffic_autohide_summary">Nascondi il monitor quando non c\'è attvità</string>
     <string name="network_traffic_autohide_threshold">Limita inattività</string>
+    <string name="status_bar_traffic_settings_summary">Usare solo con orologio a sinistra.</string>
 </resources>
