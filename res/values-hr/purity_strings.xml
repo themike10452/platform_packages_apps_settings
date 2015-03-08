@@ -175,8 +175,13 @@
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Brze postavke</string>
     <string name="title_general">Općenito</string>
-    <string name="status_bar_quick_qs_pulldown_title">Brzo otvaranje</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Povlačenje desnog ruba statusne trake prema dolje otvara brze postavke</string>
+	<string name="quick_pulldown_title">Brzo otvaranje</string>
+    <string name="quick_pulldown_summary">Povlačenje odabranog ruba statusne trake prema dolje otvara brze postavke</string>
+    <string name="quick_pulldown_summary_left">Lijevo</string>
+    <string name="quick_pulldown_summary_right">Desno</string>
+    <string name="quick_pulldown_off">Onemogućeno</string>
+    <string name="quick_pulldown_left">Lijevo</string>
+    <string name="quick_pulldown_right">Desno</string>
     <string name="qs_category_style">Izgled</string>
     <string name="qs_order_title">Odabir i raspored</string>
     <string name="add_qs">Odaberi brzu postavku</string>
