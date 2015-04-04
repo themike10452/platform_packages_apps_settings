@@ -307,9 +307,7 @@
   <string name="app_ops_reset_confirm_title">Confirmer la réinitialisation des compteurs</string>
   <string name="app_ops_reset_confirm_mesg">Êtes-vous sûr de vouloir réinitialiser les compteurs ?</string>
   <string name="app_ops_settings_summary">Afficher ou modifier les autorisations de l\'application</string>
-
-(Must be translated) Remeber if you want to use "'" put a "\" before it. Example: "un\'albero"
-    <string name="network_traffic_title">Réseau</string>
+  <string name="network_traffic_title">Réseau</string>
     <string name="show_network_traffic_state">Icône réseau de la barre d\'état</string>
     <string name="show_network_traffic_unit">Unité</string>
     <string name="show_network_traffic_frequency">Intervalle d\'actualisation</string>
@@ -322,7 +320,7 @@
     <string name="network_traffic_autohide">Masquer automatiquement</string>
     <string name="network_traffic_autohide_summary">Masquer le moniteur de données mobiles lors d\'abscence d\'activité</string>
     <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
-    <string name="status_bar_traffic_settings_summary">A utiliser seulement avec l'horloge située à gauche.</string>
+    <string name="status_bar_traffic_settings_summary">A utiliser seulement avec l\'horloge située à gauche.</string>
     <string name="navigation_ring_message">Appuyez sur le bouton \'Modifier\' pour ouvrir le menu de personnalisation de l\'anneau de navigation.\n\nSélectionnez une cible pour configurer son comportement.\n\nCochez la case pour sauvegarder les modifications, ou restaurez les paramètres originaux</string>
     <string name="navigation_bar_height">Hauteur de la barre de navigation</string>
     <string name="navigation_bar_height_48">48dp (originel)</string>
