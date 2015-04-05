@@ -81,8 +81,6 @@
     <string name="volume_adjust_sound_title">Volume adjust sound</string>
     <string name="volbtn_music_controls_title">Playback control</string>
     <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks.</string>
-    <string name="link_volume_option_title">Link ringtone &amp; notification volumes</string>
-    <string name="notification_volume_option_title">Notification volume</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
