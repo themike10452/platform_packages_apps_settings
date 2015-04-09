@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="build_date">Data build</string>
+    <string name="build_date">Data Purity build</string>
     <string name="system_settings_title">Sistema</string>
     <string name="status_bar_general_title">Generali</string>
 
@@ -74,6 +74,7 @@
     <string name="volbtn_music_controls_summary">Quando lo schermo è spento, premendo a lungo il volume rocker verranno cercate tracce musicali.</string>
     <string name="link_volume_option_title">Collega volume suoneria &amp; e notifiche</string>
     <string name="notification_volume_option_title">Volume delle notifiche</string>
+    <string name="ring_notification_volume_option_tile">Volume notifiche e suoneria</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Volume sicurezza cuffie</string>
