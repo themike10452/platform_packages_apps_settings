@@ -212,6 +212,7 @@
     <string name="qs_tile_notifications">Sound</string>
     <string name="qs_tile_lte">LTE</string>
     <string name="qs_expanded_desktop_tile">Expanded desktop</string>
+    <string name="qs_tile_heads_up">Heads up</string>
 
     <!--  Recents close all button -->
     <string name="category_recent_panel_title" >Recents menu</string>
