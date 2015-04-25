@@ -526,7 +526,7 @@
     <string name="network_traffic_autohide">Auto hide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="status_bar_traffic_settings_summary">Use only with left clock.</string>
+    <string name="status_bar_traffic_settings_summary">Use only with right clock.</string>
 
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Link ring and notification volumes</string>
