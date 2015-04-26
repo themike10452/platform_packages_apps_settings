@@ -431,4 +431,8 @@
     <string name="network_traffic_autohide_summary">Nascondi il monitor quando non c\'è attvità</string>
     <string name="network_traffic_autohide_threshold">Limita inattività</string>
     <string name="status_bar_traffic_settings_summary">Usare solo con orologio a sinistra.</string>
+
+    <!-- Heads up -->
+    <string name="summary_heads_up_enabled">Le notifiche pop-up sono attivate</string>
+    <string name="summary_heads_up_disabled">Le notifiche pop-up sono disattivate</string>
 </resources>
