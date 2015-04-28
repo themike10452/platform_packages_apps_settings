@@ -214,6 +214,7 @@
     <string name="qs_tile_screen_timeout">Screen timeout</string>
     <string name="qs_expanded_desktop_tile">Expanded desktop</string>
     <string name="qs_brightness_tile">Brightness</string>
+    <string name="qs_tile_heads_up">Heads up</string>
 
     <!--  Recents close all button -->
     <string name="category_recent_panel_title" >Recents menu</string>
@@ -535,6 +536,7 @@
 
     <!-- Heads Up -->
     <string name="category_heads_up">Heads up notifications</string>
+    <string name="heads_up_notifications">Heads up</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
     <string name="add_heads_up_package">Add app</string>
@@ -558,4 +560,5 @@
     <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi\u2011Fi, USB networks). This setting is reset on reboot</string>
     <!-- Warning for Adb over Network -->
     <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks, including GSM data network!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
+
 </resources>

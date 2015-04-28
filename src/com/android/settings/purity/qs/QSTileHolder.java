@@ -132,6 +132,10 @@ public class QSTileHolder {
                 resourceName = "ic_qs_screen_timeout_vector";
                 stringId = R.string.qs_tile_screen_timeout;
                 break;
+            case QSConstants.TILE_HEADS_UP:
+                resourceName = "ic_qs_heads_up_on";
+                stringId = R.string.qs_tile_heads_up;
+                break;
             default:
                 return null;
         }
